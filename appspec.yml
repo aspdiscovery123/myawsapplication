@@ -7,7 +7,7 @@ files:
 	  destination: /home/ubuntu/aws_cicd
 
 hooks:
-	BeforeInstall
+	BeforeInstall:
 		- location: scripts/before_install.sh
-	AfterInstall
+	AfterInstall:
 		- location: scripts/after_install.sh
